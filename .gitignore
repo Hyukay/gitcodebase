@@ -48,3 +48,5 @@ temp/
 redirect.html
 *-codebase.html
 *-practice-*.html
+# Local Netlify folder
+.netlify
