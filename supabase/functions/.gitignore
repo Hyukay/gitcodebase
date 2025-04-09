@@ -1,0 +1,31 @@
+# Deno specific
+.deno/
+.cache/
+.import_map.json
+
+# Environment variables
+.env
+.env.local
+
+# Generated files
+*.js.map
+*.d.ts
+node_modules/
+
+# Supabase local development
+supabase/.branches/
+supabase/.temp/
+
+# Local development files
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? 
