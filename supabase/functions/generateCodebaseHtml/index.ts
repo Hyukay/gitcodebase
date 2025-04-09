@@ -171,7 +171,7 @@ serve(async (req: Request) => {
     console.log("Uploaded to storage:", storageKey);
 
     // Hardcode the download URL with the correct bucket name
-    const downloadUrl = `https://xqybzriqzopouvfeqwqf.supabase.co/storage/v1/object/public/public1/${storageKey}`;
+    const downloadUrl = `${supabaseUrl}/storage/v1/object/public/public1/${storageKey}`;
     console.log("Final downloadUrl with hardcoded public1 bucket:", downloadUrl);
 
     // Cache in database
